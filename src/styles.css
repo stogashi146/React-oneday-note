@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
+
+input {
+  border-radius: 16px;
+  padding: 2px 5px;
+  width: 50%;
+}
+
+.edit-icon {
+  margin-left: 5px;
+}
+
+.edit-icon:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+button {
+  margin: 0 3px;
+  background-color: #ffffcc;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+button:hover {
+  background-color: #ffff00;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.date-area {
+  width: 25%;
+  align-items: center;
+}
+
+.input-area {
+  padding: 6px;
+}
